@@ -1,0 +1,461 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Razia's Cake Zone | Rosy</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container navbar">
+
+        <a href="index.html" class="logo">
+            <span class="logo-icon">R</span>
+            <span>
+                <strong>Rosy</strong>
+                <small>Razia's Cake Zone</small>
+            </span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="cakes.html">Our Cakes</a>
+            <a href="about.html">Our Story</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="cart.html" class="cart-link">
+            Cart <span id="cartCount">0</span>
+        </a>
+
+    </div>
+</header>
+
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <span class="eyebrow">Made with love & sweetness</span>
+
+            <h1>
+                Every Cake Tells
+                <span>A Sweet Story.</span>
+            </h1>
+
+            <p>
+                Celebrate your special moments with beautiful,
+                delicious and freshly baked cakes from
+                Razia's Cake Zone.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="cakes.html" class="btn btn-primary">
+                    Explore Cakes
+                </a>
+
+                <a href="about.html" class="btn btn-outline">
+                    Our Story
+                </a>
+
+            </div>
+
+            <div class="hero-note">
+                <span>♡</span>
+                Freshly baked with love, just for you.
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=900"
+                alt="Beautiful celebration cake"
+            >
+
+            <div class="floating-card">
+                <span>♡</span>
+                <div>
+                    <strong>Sweet Moments</strong>
+                    <small>Made extra special</small>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- INTERACTIVE CAKE SHOWCASE -->
+<section class="cake-showcase section-padding">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">A Little Cake Magic</span>
+            <h2>Let's Cut Something Sweet!</h2>
+            <p>Click the button and discover the delicious layers inside.</p>
+        </div>
+
+        <div class="cake-stage">
+
+            <div class="showcase-cake" id="showcaseCake">
+
+                <img
+                    src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=900"
+                    alt="Fresh Strawberry Cream Cake"
+                    class="whole-cake"
+                >
+
+                <img
+                    src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=900"
+                    alt="Strawberry cake slice"
+                    class="cake-slice"
+                    id="cakeSlice"
+                >
+
+            </div>
+
+            <div class="cake-showcase-info">
+
+                <h3>Strawberry Delight Cake</h3>
+
+                <p>
+                    Fresh strawberry layers, smooth cream
+                    and irresistible sweetness.
+                </p>
+
+                <button
+                    type="button"
+                    class="btn btn-primary"
+                    id="cutCakeBtn"
+                >
+                    <i class="bi bi-scissors"></i>
+                    Cut the Cake
+                </button>
+
+                <p class="cut-message" id="cutMessage">
+                    Ready for a sweet surprise?
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURES -->
+<section class="features section-padding">
+    <div class="container features-grid">
+
+        <div class="feature-card">
+            <span>♡</span>
+            <h3>Made with Love</h3>
+            <p>Every cake is prepared with care and passion.</p>
+        </div>
+
+        <div class="feature-card">
+            <span>✿</span>
+            <h3>Fresh Ingredients</h3>
+            <p>Quality ingredients for delicious taste.</p>
+        </div>
+
+        <div class="feature-card">
+            <span>🎂</span>
+            <h3>Custom Designs</h3>
+            <p>Beautiful cakes for your special occasions.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- FEATURED CAKES -->
+<section class="featured-cakes section-padding">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">Our Special Collection</span>
+
+            <h2>Made to Make You Smile</h2>
+
+            <p>
+                Discover our delicious collection of freshly
+                prepared cakes.
+            </p>
+        </div>
+
+        <div class="cake-grid">
+
+            <div class="cake-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
+                    alt="Chocolate cake"
+                >
+
+                <div class="cake-info">
+                    <span class="cake-category">Chocolate</span>
+
+                    <h3>Chocolate Dream Cake</h3>
+
+                    <p>৳ 1,200</p>
+
+                    <button class="btn btn-primary add-cart" data-id="1">
+                        Add to Cart
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="cake-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600"
+                    alt="Strawberry cake"
+                >
+
+                <div class="cake-info">
+                    <span class="cake-category">Strawberry</span>
+
+                    <h3>Strawberry Delight</h3>
+
+                    <p>৳ 1,400</p>
+
+                    <button class="btn btn-primary add-cart" data-id="2">
+                        Add to Cart
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="cake-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600"
+                    alt="Vanilla cake"
+                >
+
+                <div class="cake-info">
+                    <span class="cake-category">Vanilla</span>
+
+                    <h3>Classic Vanilla Cake</h3>
+
+                    <p>৳ 1,000</p>
+
+                    <button class="btn btn-primary add-cart" data-id="3">
+                        Add to Cart
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="center-button">
+            <a href="cakes.html" class="btn btn-outline">
+                View All Cakes
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- CUSTOM CAKE DESIGN -->
+<section class="custom-cake-section section-padding">
+    <div class="container custom-cake-content">
+
+        <div class="custom-cake-image">
+            <img
+                src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?w=800"
+                alt="Beautiful custom celebration cake"
+            >
+        </div>
+
+        <div class="custom-cake-text">
+
+            <span class="eyebrow">Made Just For You</span>
+
+            <h2>Your Dream Cake, Your Special Design</h2>
+
+            <p>
+                Looking for something unique?
+                Let us create a beautiful cake that matches
+                your imagination and makes your celebration memorable.
+            </p>
+
+            <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Birthday Cakes</li>
+                <li><i class="bi bi-check-circle-fill"></i> Anniversary Cakes</li>
+                <li><i class="bi bi-check-circle-fill"></i> Wedding Cakes</li>
+                <li><i class="bi bi-check-circle-fill"></i> Customized Designs</li>
+            </ul>
+
+            <a href="contact.html" class="btn btn-primary">
+                Request Custom Cake
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- HOW TO ORDER -->
+<section class="how-to-order section-padding">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-subtitle">Simple & Easy</span>
+            <h2>How to Order Your Cake</h2>
+            <p>Follow these simple steps to order your favourite cake.</p>
+        </div>
+
+        <div class="order-steps">
+
+            <!-- Step 01 -->
+            <div class="order-step">
+                <div class="step-icon">
+                    <i class="bi bi-cake2"></i>
+                </div>
+                <span class="step-number">01</span>
+                <h3>Choose Your Cake</h3>
+                <p>Explore our delicious cake collection.</p>
+                <a href="cakes.html" class="step-link">
+                    Browse Cakes <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- Step 02 -->
+            <div class="order-step">
+                <div class="step-icon">
+                    <i class="bi bi-cart-plus"></i>
+                </div>
+                <span class="step-number">02</span>
+                <h3>Add to Cart</h3>
+                <p>Select your favourite cake and add it to your cart.</p>
+                <a href="cakes.html" class="step-link">
+                    Select Cakes <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- Step 03 -->
+            <div class="order-step">
+                <div class="step-icon">
+                    <i class="bi bi-whatsapp"></i>
+                </div>
+                <span class="step-number">03</span>
+                <h3>Send Your Order</h3>
+                <p>Review your cart and send your order through WhatsApp.</p>
+                <a href="cart.html" class="step-link">
+                    View Cart <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- Step 04 -->
+            <div class="order-step">
+                <div class="step-icon">
+                    <i class="bi bi-heart"></i>
+                </div>
+                <span class="step-number">04</span>
+                <h3>Enjoy Your Cake</h3>
+                <p>Get ready to enjoy your delicious cake!</p>
+                <span class="step-link step-complete">
+                    Sweet Moments <i class="bi bi-heart-fill"></i>
+                </span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- CTA SECTION -->
+<section class="cta-section">
+    <div class="container cta-content">
+
+        <span>Make Your Celebration Sweeter</span>
+
+        <h2>A Special Cake for Your Special Day!</h2>
+
+        <p>
+            Let's create something beautiful and delicious
+            for your next celebration.
+        </p>
+
+        <a href="contact.html" class="btn btn-white">
+            Order Your Cake
+        </a>
+
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <div>
+            <h2>Rosy</h2>
+            <p>Razia's Cake Zone</p>
+            <p>Making every moment sweeter.</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="cakes.html">Our Cakes</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>Chattogram, Bangladesh</p>
+            <a href="https://wa.me/8801813182874"
+               target="_blank"
+               rel="noopener noreferrer">
+                WhatsApp: 01813182874
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Razia's Cake Zone. All Rights Reserved.</p>
+        <p>Designed & Developed by Nazma Akter</p>
+    </div>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+<script src="./assets/js/app.js" defer></script>
+
+</body>
+</html>
